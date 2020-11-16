@@ -1,0 +1,32 @@
+{
+  "name": "logins-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for account logins",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuasir/node-logins-bot.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "telegram",
+    "logins",
+    "account",
+    "scrapping"
+  ],
+  "author": "manuasir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuasir/node-logins-bot/issues"
+  },
+  "homepage": "https://github.com/manuasir/node-logins-bot#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.8.0",
+    "telebot": "^1.4.1"
+  }
+}
